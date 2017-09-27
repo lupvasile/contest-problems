@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1382986519 source:d:\info\c++\o problema cu aib\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1381419871 source:d:\info\c++\genetic drift catalysts\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+	<iostream>
+	<fstream>
+	<algorithm>
+

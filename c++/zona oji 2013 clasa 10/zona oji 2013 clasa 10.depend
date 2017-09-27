@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1374154026 source:d:\info\c++\zona oji 2013 clasa 10\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1422458717 source:d:\google drive\^programare\olimpiade\oji\2008\numar oji 2008 clasa 11\main.cpp
+	<fstream>
+	<vector>
+	<algorithm>
+	<iostream>
+

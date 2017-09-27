@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1404212165 source:d:\dropbox\c++\^infoarena\arie\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<algorithm>
+

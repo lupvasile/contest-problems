@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1392028832 source:c:\users\luchy\desktop\codificare\main.cpp
+	<iostream>
+	<fstream>
+	<cstdio>
+	<string>
+	<cstdlib>
+

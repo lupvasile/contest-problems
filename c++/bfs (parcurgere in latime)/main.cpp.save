@@ -1,0 +1,38 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+#define FOR(i,a,b) for(i=a;i<=b;i++)
+//#define cout g
+ifstream f("bfs.in");
+ofstream g("bfs.out");
+int n,m,i,j,start,a[2000][2000],coada[2001],inc,sf;
+bool viz[2001];
+int main()
+    {
+    f>>n>>m>>start;
+    for(; m; m--)
+        {
+        f>>i>>j;
+        if(i!=j)
+            a[i][j]=1;
+        }
+    inc=0;
+    coada[inc]=start;
+    sf=0;
+    while(inc<=sf)
+        {
+        viz[coada[inc]]=true;
+        FOR(i,1,n) if (a[coada[inc]][i] && !viz[i])
+            {
+            coada[++sf]=i;
+            a[start][i]=a[start][coada[inc]]+1;
+            }
+        inc++;
+        }
+    FOR(i,1,start-1) if (a[start][i]==0) cout<<-1<<' ';
+    else cout<<a[start][i]<<' ';
+    cout<<0<<' ';
+    FOR(i,start+1,n) if (a[start][i]==0) cout<<-1<<' ';
+    else cout<<a[start][i]<<' ';
+    return 0;
+    }

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1394446982 source:c:\users\luchy\desktop\rabin-karp\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<vector>
+

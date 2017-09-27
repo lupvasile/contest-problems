@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1390329525 source:d:\info\c++\problema rucsacului\main.cpp
+	<cstdio>
+	<algorithm>
+	<iostream>
+	<iomanip>
+	<fstream>
+

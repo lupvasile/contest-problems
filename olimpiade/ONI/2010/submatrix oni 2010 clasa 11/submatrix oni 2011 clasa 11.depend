@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1427105814 source:d:\google drive\^programare\olimpiade\oni\2012\submatrix oni 2011 clasa 11\main.cpp
+	<iostream>
+	<fstream>
+	<tr1/unordered_map>
+

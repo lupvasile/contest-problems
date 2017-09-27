@@ -1,0 +1,68 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+#define foor(i,a,b) for(i=a;i<=b;i++)
+#define poz llb[k][0]
+//#define cout g
+//ifstream f("pascal.in");
+ofstream g("pascal.out");
+int i,la[10000][10000],lb[10000][10000],nr,k;
+void afisare(int a[10000][10000])
+    {
+    int k,k2;
+    foor(k,1,i)
+        {
+        for(k2=a[k][0]; k2; k2--) g<<a[k][k2];
+        g<<" ";
+        }
+    g<<"\n";
+    }
+void verificare(int a[][10000])
+{
+    int k,k2;
+    foor(k,1,i) if (a[k][a[k][0]]==0) cout<<i<<" "<<k<<"\n";
+}
+void bigsum(int k,int lla[][10000], int llb[][10000])
+    {
+    int h,minte(0),maxx(max(lla[k][0],lla[k-1][0]));
+    poz=1;
+    while (llb[k][0]<=maxx)
+        {
+        llb[k][poz]=lla[k-1][poz]+lla[k][poz]+minte;
+        minte=llb[k][poz] / 10;
+        llb[k][poz] %=10;
+        poz++;
+        }
+    poz--;
+    if (minte)
+        {
+        poz++;
+        llb[k][poz]=minte;
+        }cout<<"''''' "<<sizeof(lla)
+    }
+int main()
+    {
+    nr=5000;
+    la[1][0]=1;
+    la[1][1]=1;
+    i=1;
+    afisare(la);
+    foor(i,2,nr-1)
+        {
+        //cout<<i<<"\n";
+        foor(k,1,i) bigsum(k,la,lb);
+        afisare(lb);
+        //verificare(lb);
+        i++;
+        foor(k,1,i) bigsum(k,lb,la);
+        afisare(la);
+        //verificare(la);
+        }
+    if (nr % 2==0)
+        {
+        foor(k,1,i) bigsum(k,la,lb);
+        afisare(lb);
+        //verificare(lb);
+        }
+    return 0;
+    }

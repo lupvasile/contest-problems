@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1455553131 source:d:\google drive\^programare\evaluator\base3\main.cpp
+	<iostream>
+	<fstream>
+	<queue>
+	<cstring>
+
+1455561080 source:d:\google drive\^programare\c++\base3\main.cpp
+	<iostream>
+	<fstream>
+	<queue>
+	<cstring>
+	<tr1/unordered_map>
+

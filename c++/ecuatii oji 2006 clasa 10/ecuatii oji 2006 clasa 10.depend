@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1380971779 source:d:\info\c++\ecuatii oji 2006 clasa 10\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<string.h>
+

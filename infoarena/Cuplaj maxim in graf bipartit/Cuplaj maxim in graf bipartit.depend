@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1420229923 source:d:\google drive\^programare\infoarena\cuplaj maxim in graf bipartit\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

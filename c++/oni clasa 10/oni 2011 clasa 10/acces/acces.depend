@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1395668365 source:d:\dropbox\c++\oni clasa 10\oni 2011 clasa 10\acces\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+

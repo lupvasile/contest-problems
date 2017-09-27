@@ -1,0 +1,27 @@
+#include <iostream>
+#include <fstream>
+#include <algorithm>
+#include <vector>
+using namespace std;
+
+ifstream f("aparitii.in");
+ofstream g("aparitii.out");
+
+#define cout g
+#define kmax 1000
+int n,x,v[10][10];
+int main()
+{
+  //f.read(b,oo),p=b;
+  f>>n;
+  f>>k;
+  for(;n--n)
+    {
+      f>>x;
+      i=0;
+      while (x) ++a[++i][x%10],x/=10;  
+    }
+   for(i=1;i<=l;++i) cout<<v[i]<<' ';
+   cout<<v[2];
+  return 0;
+}

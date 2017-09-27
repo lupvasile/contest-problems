@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1457029623 source:c:\users\vasil_000\desktop\lucru\300 - lumber jack and sick leaves\main.cpp
+	<iostream>
+	<vector>
+	<cstdlib>
+

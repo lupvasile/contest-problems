@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1419883544 source:d:\google drive\^programare\campion\bancomat\main.cpp
+	<iostream>
+	<fstream>
+

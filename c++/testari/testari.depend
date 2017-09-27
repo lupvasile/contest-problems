@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1382628222 source:d:\info\c++\testari\main.cpp
+	<deque>
+	<iostream>
+
+1376650572 
+
+1379522070 source:/host/info/c++/testari/main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+
+1396190033 source:d:\dropbox\c++\testari\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+	<cassert>
+	<memory.h>
+

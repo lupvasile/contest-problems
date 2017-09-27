@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1459192975 source:d:\google drive\^programare\olimpiade\baraje\2009\nums\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+

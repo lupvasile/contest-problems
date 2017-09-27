@@ -1,0 +1,52 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+ifstream f("cumpanit.in");
+ofstream g("cumpanit.out");
+long long a,b,i,nr,sum_baza;
+long long prim[]={0,2,3,5,7,11,13,17,19,23,29,31,37,41,43,47};
+long long sol[7];
+long long v[500],l;
+#define cout g
+#define lprim 15
+
+void d_back(long long k,long long s,long long nr)
+{
+    long long i,p=1;
+    if(nr>b) return;
+    if(k && s)
+    {
+        for(i=1;i<=s;++i)
+        {
+            p*=prim[sol[k]];
+            d_back(k-1,s-i,nr*p);
+        }
+    }
+    if (s==0)
+        if (nr>=a && nr<=b) v[++l]=nr;
+}
+void back(long long k)
+{
+    long long i;
+    if (k<=5)
+
+     for(i=sol[k-1]+1;i<=lprim;++i)
+     {
+         sol[k]=i;
+         sum_baza+=prim[sol[k]];
+         prod_baza*=prim[sol[k]];
+         if(prod_baza<=b)
+         {d_back(k,sum_baza,1);
+         back(k+1);
+         }
+         sum_baza-=prim[sol[k]];
+     }
+}
+int main()
+{
+ f>>a>>b;
+back(1);
+for(i=1;i<=l;++i)cout<<v[i]<<' ';
+    return 0;
+}

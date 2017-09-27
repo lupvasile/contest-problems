@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1383064513 source:d:\info\c++\stars timus\main.cpp
+	<iostream>
+	<fstream>
+

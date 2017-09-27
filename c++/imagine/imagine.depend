@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1390651943 source:d:\info\c++\imagine\main.cpp
+	<iostream>
+	<cstdio>
+

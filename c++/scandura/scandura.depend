@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1389267946 source:c:\users\family\desktop\programare vasi\scandura\main.cpp
+	<iostream>
+	<fstream>
+	<queue>
+

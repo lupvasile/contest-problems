@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1410192258 source:d:\dropbox\^programare\codeforces\251\e. pashmak and graph\main.cpp
+	<iostream>
+	<vector>
+
+1410254405 source:d:\dropbox\^programare\codeforces\261\e. pashmak and graph\main.cpp
+	<iostream>
+	<vector>
+	<cstdio>
+

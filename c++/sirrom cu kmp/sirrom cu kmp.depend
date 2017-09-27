@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1425572368 source:d:\google drive\^programare\c++\sirrom cu kmp\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<vector>
+

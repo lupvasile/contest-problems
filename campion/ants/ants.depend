@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1403546809 source:d:\dropbox\c++\campion\ants\main.cpp
+	<iostream>
+	<fstream>
+

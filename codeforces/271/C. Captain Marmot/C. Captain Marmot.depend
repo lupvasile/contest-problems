@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1412708695 source:d:\dropbox\^programare\codeforces\271\c. captain marmot\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1457366728 source:c:\users\vasil_000\desktop\lucru\asdfasdfasdf\main.cpp
+	<stdio.h>
+	<vector>
+	<string.h>
+

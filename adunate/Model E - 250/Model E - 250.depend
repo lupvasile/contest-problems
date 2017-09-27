@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1455299313 source:c:\users\vasil_000\desktop\lucru\model e - 250\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1410972601 source:d:\dropbox\^programare\infoarena\party\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

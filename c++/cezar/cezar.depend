@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1390895332 source:c:\users\elev\desktop\cezar\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+
+1390919048 source:d:\dropbox\c++\cezar\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstdlib>
+

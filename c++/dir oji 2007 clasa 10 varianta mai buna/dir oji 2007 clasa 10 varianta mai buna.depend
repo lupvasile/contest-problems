@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1380964303 source:d:\info\c++\dir oji 2007 clasa 10 varianta mai buna\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+	<algorithm>
+

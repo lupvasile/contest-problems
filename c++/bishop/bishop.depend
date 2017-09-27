@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1424288054 source:d:\google drive\^programare\c++\bishop\main.cpp
+	<iostream>
+	<fstream>
+

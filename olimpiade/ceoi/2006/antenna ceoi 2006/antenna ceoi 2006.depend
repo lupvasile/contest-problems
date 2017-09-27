@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1406650083 source:d:\dropbox\^programare\ceoi\2006\antenna ceoi 2006\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cmath>
+	<algorithm>
+	<algorithm>
+	<cmath>
+	<cstdio>
+	<vector>
+

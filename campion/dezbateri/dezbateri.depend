@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1417824644 source:d:\dropbox\^programare\campion\dezbateri\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<cstring>
+	<cstdlib>
+
+1418339302 source:d:\google drive\^programare\campion\dezbateri\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<cstring>
+	<cstdlib>
+

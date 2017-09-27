@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1376740350 source:d:\info\c++\rectangles\main.cpp
+	<iostream>
+	<fstream>
+

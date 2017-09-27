@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1453053085 source:c:\users\vasil_000\desktop\naspa\main.cpp
+	<iostream>
+	<thread>
+	<fstream>
+

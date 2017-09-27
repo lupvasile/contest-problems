@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1389247421 source:c:\users\family\desktop\programare vasi\mission\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+	<vector>
+

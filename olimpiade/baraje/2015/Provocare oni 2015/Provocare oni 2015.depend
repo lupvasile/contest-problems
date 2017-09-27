@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1456407173 source:d:\google drive\^programare\olimpiade\baraje\2015\provocare oni 2015\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+	<map>
+

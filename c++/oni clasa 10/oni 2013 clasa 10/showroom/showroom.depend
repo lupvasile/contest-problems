@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1393095896 source:d:\dropbox\c++\showroom\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+
+1393342032 source:d:\dropbox\c++\oni 2013 clasa 10\showroom\main.cpp
+	<fstream>
+	<iostream>
+	<map>
+	<string>
+	<sstream>
+	<vector>
+	<set>
+

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1414186715 source:c:\users\vasil_000\desktop\asdfasdf\main.cpp
+	<Ws2tcpip.h>
+	<sstream>
+	<iostream>
+	<conio.h>
+	<string>
+
+1414441399 source:d:\dropbox\^programare\catalysts 24.10.2014\asdfasdf\main.cpp
+	<Ws2tcpip.h>
+	<sstream>
+	<iostream>
+	<conio.h>
+	<string>
+

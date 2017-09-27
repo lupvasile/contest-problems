@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1389679374 source:c:\users\family\desktop\programare vasi\sortare topolologica\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

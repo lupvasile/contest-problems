@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1385538495 source:c:\users\elev\desktop\cod oji 2002 clasa 10\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+

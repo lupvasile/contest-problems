@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1436528514 source:d:\google drive\^programare\campion\nebuni\main.cpp
+	<iostream>
+	<fstream>
+	<cmath>
+

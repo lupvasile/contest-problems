@@ -1,0 +1,12 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main()
+{
+  ifstream f("date.in");
+  int a,b
+  f>>a>>b>>x>>y;
+    return 0;
+}

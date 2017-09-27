@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1412793065 source:d:\dropbox\^programare\campion\mere\main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+

@@ -1,0 +1,22 @@
+#include <iostream>
+#include <deque>
+#include <fstream>
+
+using namespace std;
+
+ifstream f("deque.in");
+ofstream g("deque.out");
+
+deque <int> d;
+int main()
+{
+    f>>n>>k;
+    for(i=1;i<=n;++i)
+    {
+        f>>x;
+        while (!d.empty() && d.back()>=x) d.pop_back();
+        d.push_back(x);
+        
+    }
+    return 0;
+}

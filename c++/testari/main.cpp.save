@@ -1,0 +1,17 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+fstream f("date.in",ios::in);
+fstream g("date.out",ios::out);
+typedef enum{u=10} nnnn;
+int *p;
+enum nnn{a=100,b=200};
+nnnn c;
+int main()
+    {
+        c=(nnnn(u+1));
+    //cout<<c<<" "<<b;
+    //if (f.eof()) g<<100;
+    cout<<sizeof(p)<<" "<<p;
+    return 0;
+    }

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1394748113 source:d:\dropbox\c++\worms\main.cpp
+	<iostream>
+	<fstream>
+

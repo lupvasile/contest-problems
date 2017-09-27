@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1395132124 source:d:\dropbox\c++\competition jboi 2010\main.cpp
+	<iostream>
+	<fstream>
+	<set>
+	<vector>
+

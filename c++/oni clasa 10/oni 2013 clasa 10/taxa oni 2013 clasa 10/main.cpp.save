@@ -1,0 +1,55 @@
+#include <fstream>
+#include <iostream>
+#include <queue>
+
+using namespace std;
+
+ifstream f("taxa.in");
+ofstream g("taxa.out");
+
+#define nmax 1001
+#define cout g
+#define x first
+#define y second
+#define inf 0x3f3f3f3f
+
+int a[nmax][nmax],cost[nmax][nmax];
+typedef pair<int,int> ii;
+ii start,finish,nod;
+int n,m;
+int nx,ny,i,j,cost_nou;
+int depl[8][2]={{-1,0},{-1,1},{0,1},{1,1},{1,0},{1,-1},{0,-1},{-1,-1}};
+priority_queue <pair<int,ii> , vector<pair<int,ii> > , greater<pair<int,ii> > > heap;
+int prod(int a,int b)
+{
+    if(a==b) return 0;
+    return a*b;
+}
+int main()
+{
+    f>>n>>m>>start.x>>start.y>>finish.x>>finish.y;
+    for(i=1;i<=n;++i) for(j=1;j<=m;++j) f>>a[i][j],cost[i][j]=inf;
+    heap.push(make_pair(0,start));
+    cost[start.x][start.y]=0;
+    while (1)
+    {
+        nod=heap.top().y;
+        heap.pop();
+         if (nod.x==finish.x && nod.y==finish.y)
+                {
+                    cout<<cost[nod.x][nod.y];
+                    return 0;
+                }
+        for(i=0;i<=7;++i)
+        {
+            nx=nod.x+depl[i][0];
+            ny=nod.y+depl[i][1];
+            if(nx<1 || nx>n || ny<1 || ny>m) continue;
+                cost_nou=cost[nod.x][nod.y]+prod(a[nx][ny],a[nod.x][nod.y]);
+                if()
+                heap.push(make_pair(cost_nou,make_pair(nx,ny)));
+            
+        }
+    }
+    return 0;
+}

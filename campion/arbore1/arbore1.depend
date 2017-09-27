@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1415876756 source:d:\dropbox\^programare\campion\arbore1\main.cpp
+	<iostream>
+	<cstdio>
+	<vector>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1394728388 source:d:\dropbox\c++\handshakes\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

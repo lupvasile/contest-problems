@@ -1,0 +1,52 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+ifstream f("flip.in");
+ofstream g("flip.out");
+#define nmax 17
+#define foor(i,a,b) for(i=1;i<=b;++i)
+//#define cout g
+int a[nmax][nmax],n,m;
+int limita_linii,limita_coloane,l,c;
+long long sum,maxx(-9999999999);
+int i,j;
+#define nbuf 8192
+char buf[nbuf];
+int p(nbuf);
+int getI()
+{
+  int nr(0),semn(1);
+  while (buf[p]<'0' || buf[p]>'9') if(++p>=nbuf) f.read(buf,nbuf),p=0;
+  if (buf[p]=='-')
+    {
+      semn=-1;
+      if(++p>=nbuf) f.read(buf,nbuf),p=0;
+    }
+  while (buf[p]>='0' && buf[p]<='9')
+    {
+      nr=nr*10+buf[p]-'0';
+      if(++p>=nbuf) f.read(buf,nbuf),p=0;
+    }
+  return nr*semn;
+}
+int main()
+{
+  n=getI();
+  m=getI();
+  foor(i,1,n)
+  foor(j,1,m) a[i][j]=getI();
+  limita_linii=(1<<n);
+  limita_coloane=(1<<m);
+  for(l=0; l<limita_linii; ++l)
+    for(c=0; c<limita_coloane; ++c)
+      {
+        sum=0;
+        foor(i,1,n) foor(j,1,m) if ( (l&(1<<(i-1))) ^ (c&(1<<(j-1))) ) sum-=a[i][j];
+        else sum+=a[i][j];
+        maxx=max(sum,maxx);
+      }
+  cout<<maxx;
+  return 0;
+}

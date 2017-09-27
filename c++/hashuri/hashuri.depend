@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1392743200 source:d:\dropbox\c++\hashuri\main.cpp
+	<iostream>
+	<fstream>
+	<list>
+

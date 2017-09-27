@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1411454702 source:c:\users\cabinet\desktop\lca (lowest common ascensor)\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+
+1411658217 source:d:\dropbox\^programare\infoarena\lca (lowest common ascensor)\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

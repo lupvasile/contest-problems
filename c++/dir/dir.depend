@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1393581803 source:d:\dropbox\c++\dir\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<algorithm>
+

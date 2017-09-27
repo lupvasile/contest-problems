@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1393439975 source:d:\dropbox\c++\reteta2\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<map>
+

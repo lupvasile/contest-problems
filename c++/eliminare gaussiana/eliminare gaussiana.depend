@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1396434502 source:d:\dropbox\c++\eliminare gaussiana\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+

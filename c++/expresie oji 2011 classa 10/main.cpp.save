@@ -1,0 +1,109 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+ifstream f("expresie.in");
+ofstream g("expresie.out")
+char c;
+int i,hihihi,s,l,v[100000];  // v este stiva
+bool ok;
+void pararotund;
+	int sum,sumax,ll,i;
+	{
+	ll=l;
+	while (v[ll]!=100) ll--;
+	sum=-maxlongint;
+	sumax=sum;
+	for (i=ll+1;i<=l,i++) {
+					if (sum<0)  sum=v[i];
+					else sum=sum+v[i];
+					if (sum>sumax ) sumax=sum;
+					}
+	l=ll;
+	v[l]=sumax;
+	}
+	void parapatrat;
+	int sum,sumax,ll,lq,k;
+        void qselect(int s,d);
+		int i,p;
+		{
+		p=pivot(s,d);
+		if (k<p ) qselect(s,p-1)
+		else if (k>p)  qselect(p+1,d);
+		}
+		int pivot(int i,j);
+		int di,dj,aux;
+		{
+		di=1;
+		dj=0;
+		while (i<j)  {
+				if (v[i]>v[j] ) {
+							aux=v[i];
+							v[i]=v[j];
+							v[j]=aux;
+							di=1-di;
+							dj=1-dj;
+							}
+				i=i+di;
+				j=j-dj;
+				}
+		return i;
+		}
+	{
+	ll=l;
+	while (v[ll]<>110) ll--;
+	k=(l-ll+1 )/ 2+ll;
+	qselect(ll+1,l);
+	v[ll]=v[k];
+	l=ll;
+	}
+void inceput;
+{
+hihihi=1;  l=0;
+ok=true;
+while (1)  {
+        if (ok)  f>>c;
+        if(c<'0')or(c>'9')  ok=true;
+        case c of
+                '0'..'9':{
+                                inc(l);
+                                v[l]=0;
+                                while c in ['0'..'9'] do {
+                                        v[l]=v[l]*10+ord(c)-ord('0');
+                                        read(c);
+                                        ok=false;
+                                        }
+                         }
+                '-':{
+                        inc(l);
+                        v[l]=0;
+                        read(c);
+                               while c in ['0'..'9'] do {
+                                        v[l]=v[l]*10-(ord(c)-ord('0'));
+                                        read(c);
+                                        ok=false;
+                                        }
+                         }
+                ',':inc(hihihi);
+                '(': {
+                     inc(l);
+                     v[l]=100;
+                     }
+                '[': {
+                     inc(l);
+                     v[l]=110;
+                     }
+                ')': pararotund;
+                ']': parapatrat;
+              } //end de la case;
+        }
+//if c=')'  pararotund;
+//if c=']'  parapatrat;
+writeln(hihihi);
+}
+{
+inceput;
+for i=1 to l do s=s+v[i];
+writeln(s);
+close(output);
+end.
+

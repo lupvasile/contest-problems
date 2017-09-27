@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1420987977 source:d:\google drive\^programare\infoarena\aho-corasick\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<vector>
+

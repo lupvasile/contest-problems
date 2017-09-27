@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1382608447 source:c:\users\elev\desktop\heap\main.cpp
+	<iostream>
+	<fstream>
+

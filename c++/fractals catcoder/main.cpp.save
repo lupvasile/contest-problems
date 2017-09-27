@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+int lenght,iterations,perimetru,i,nr;
+void reading()
+{   char *pp,s[10000];
+    cin.get(s,1000);
+    pp=strstr(s,"Lenght=");
+    p+=8;
+    while()
+}
+int main()
+{   reading();
+    perimetru=3*lenght;
+    nr=3;
+    for(i=1;i<=iterations;i++)
+    {
+        lenght=lenght/3;
+        perimetru=perimetru+nr*lenght;
+        nr=nr*2;
+    }
+    cout<<perimetru;
+    return 0;
+}

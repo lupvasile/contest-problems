@@ -1,0 +1,18 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+ifstream f("text.in");
+ofstream g("text.out");
+
+char v_c,c;
+int main()
+{
+    while (!f.eof()){f.get(c);
+    if (c>='a' && c<='z' || c>='A' && c<='Z') {
+        ++lcuv;
+        if(v_c)
+    
+    return 0;
+}

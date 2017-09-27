@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1393435592 source:d:\dropbox\c++\muzeu\main.cpp
+	<iostream>
+	<fstream>
+	<queue>
+

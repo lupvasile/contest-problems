@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1404669256 source:d:\dropbox\c++\oni clasa 10\oni 2007 clasa 10\zidar\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+

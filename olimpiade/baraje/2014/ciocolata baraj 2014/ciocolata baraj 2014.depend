@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1415142340 source:d:\dropbox\^programare\olimpiade\baraje\2014\ciocolata baraj 2014\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+

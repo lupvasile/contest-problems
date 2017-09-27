@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1418340949 source:d:\google drive\^programare\campion\reinvent\main.cpp
+	<iostream>
+	<fstream>
+	<queue>
+	<vector>
+

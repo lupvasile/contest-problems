@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1390159695 source:d:\info\c++\castel\main.cpp
+	<iostream>
+	<fstream>
+	<queue>
+	<vector>
+

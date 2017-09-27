@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1417450869 source:d:\dropbox\^programare\campion\borg\main.cpp
+	<iostream>
+	<fstream>
+

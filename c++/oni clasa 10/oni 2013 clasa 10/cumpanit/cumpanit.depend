@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1393085585 source:d:\dropbox\c++\cumpanit\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+

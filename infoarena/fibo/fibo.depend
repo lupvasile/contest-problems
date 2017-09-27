@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1420892259 source:d:\google drive\^programare\infoarena\fibo\main.cpp
+	<iostream>
+	<fstream>
+	<bitset>
+

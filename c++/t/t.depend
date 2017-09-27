@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1377522203 source:d:\info\c++\t\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+
+1395862341 source:d:\dropbox\c++\t\main.cpp
+	<stdio.h>
+

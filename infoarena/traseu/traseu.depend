@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1416323374 source:d:\dropbox\^programare\infoarena\traseu\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<queue>
+

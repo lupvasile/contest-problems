@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1404662210 source:d:\dropbox\c++\sequence boi 2007\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

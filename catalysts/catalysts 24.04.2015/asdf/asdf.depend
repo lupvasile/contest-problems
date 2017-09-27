@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1429891054 source:c:\users\vasil_000\desktop\asdf\main.cpp
+	<iostream>
+	<cstdlib>
+	<cmath>
+

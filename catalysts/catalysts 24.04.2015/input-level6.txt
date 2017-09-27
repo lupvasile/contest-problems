@@ -1,0 +1,10 @@
+dimension=2d
+nrOfX=35
+nrOfY=35
+bodyX=150
+bodyY=155
+maxSticks=560
+# Minimum value for maxSticks is 560
+shape=0,0,100,200,200,0,100,80
+bodyCGx=100
+bodyCGy=95

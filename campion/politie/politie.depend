@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1410356746 source:d:\dropbox\^programare\campion\politie\main.cpp
+	<iostream>
+	<cstdio>
+	<algorithm>
+	<iomanip>
+

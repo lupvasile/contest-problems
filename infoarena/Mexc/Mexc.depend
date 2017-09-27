@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1457534995 source:d:\google drive\^programare\infoarena\mexc\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1413654186 source:d:\dropbox\^programare\codeforces\222\b. semifinals\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

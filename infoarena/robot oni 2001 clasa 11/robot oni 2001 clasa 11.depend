@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1425395501 source:d:\google drive\^programare\infoarena\robot oni 2001 clasa 11\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<fstream>
+	<cmath>
+	<iomanip>
+	<cstring>
+	<queue>
+

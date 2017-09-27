@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1416329427 source:d:\dropbox\^programare\infoarena\petsoft\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+	<algorithm>
+

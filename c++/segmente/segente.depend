@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1392474219 source:d:\dropbox\c++\segente\main.cpp
+	<iostream>
+	<fstream>
+
+1393161620 source:d:\dropbox\c++\segmente\main.cpp
+	<iostream>
+	<fstream>
+

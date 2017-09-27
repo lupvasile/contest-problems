@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1414142761 source:c:\users\vasil_000\desktop\teste\main.cpp
+	<winsock2.h>
+	<Ws2tcpip.h>
+	<stdio.h>
+	<iostream>
+	<sstream>
+

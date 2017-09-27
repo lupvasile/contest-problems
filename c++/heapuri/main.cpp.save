@@ -1,0 +1,77 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+ifstream f("heap.in");
+ofstream g("heapuri.out");
+#define nmax 100000
+#define father(x) (x/2)
+int v[nmax],h[nmax],n,tip,val,l,lv,p;
+void percolate(int k)
+{
+    int key=h[k];
+    while (father(k)>=1 && v[h[father(k)]]>v[key])
+    {
+        h[k]=h[father(k)];
+        pos[h[father(k)]]=k;
+        k=father(k);
+        
+    }
+    h[k]=key;
+}
+int find(int val,int k)
+{
+    if (k>n) return 0;
+    if (h[k]==val) return k;
+    if (h[k]>val) return 0;
+    int x=find(val,k*2);
+    if (x) return x;
+    else return find(val,k*2+1);
+
+}
+void sift(int k)
+{int son;
+    do
+    {
+        son=k*2;
+        if (son>n) break;
+        if(son+1<=n) if (h[son]>h[son+1]) ++son;
+        if (h[k]<h[son]) son=0;
+        if(son) swap(h[k],h[son]);
+        k=son;
+    } while (son);
+}
+int main()
+{
+f>>n;
+for(;n;--n)
+{
+    f>>tip;
+    switch(tip)
+    {
+        case 1:{
+        f>>val;
+        v[++lv]=val;
+        h[++l]=lv;
+        percolate(l);
+        break;
+        }
+        case 2:
+        {
+            f>>val;
+            p=find(v[val],1);
+            //cout<<"asdf"<<p<<' '<<val<<'\n';
+            h[p]=h[l--];
+            if (father(p)>=1 && h[father(p)]>h[p]) percolate(p);
+            else sift(p);
+            break;
+        }
+        case 3:{
+            cout<<h[1]<<'\n';
+            break;
+        }
+    }
+}
+    return 0;
+}

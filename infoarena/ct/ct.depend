@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1411664798 source:c:\users\vasil_000\desktop\ct\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+
+1411741548 source:d:\dropbox\^programare\infoarena\ct\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+

@@ -1,0 +1,34 @@
+#include <iostream>
+#include <fstream>
+#include <list>
+using namespace std;
+#define mod 666013
+ifstream f("hashuri.in");
+ofstream g("hashuri.out");
+int n,x,tip;
+list <int> v[mod];
+void add(int val)
+{
+if (!find(val)) 
+}
+int main()
+{
+  f>>n;
+  for(; n; --n)
+    {
+      f>>tip>>x;
+      switch (tip)
+        {
+        case 1:
+          add(x);
+          break;
+        case 2:
+          del(x);
+          break;
+        case 3:
+          cout<<find(x);
+          break;
+        }
+    }
+  return 0;
+}

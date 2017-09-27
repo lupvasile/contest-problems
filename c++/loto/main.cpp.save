@@ -1,0 +1,43 @@
+#include <iostream>
+#include <fstream>
+#include <algorithm>
+using namespace std;
+
+ifstream f("loto.in");
+ofstream g("loto.out");
+
+//#define cout g
+
+int n,s;
+int a[101];
+struct elem{int val,x1,x2,x3;} v[100001];
+int q,nr,p,i,l,j,k,h;
+inline bool cmp(elem a,elem b)
+{
+    return a.val<b.val;
+}
+inline bool cmp2(elem a,int b)
+{
+    return a.val<b;
+}
+int main()
+{
+    f>>n>>s;
+    for(i=0;i<n;++i) f>>a[i];
+    sort(a,a+n);
+    for(i=0;i<n;++i)
+        for(j=i;j<n;++j)
+            for(k=j;k<n;++k){
+                v[++l].val=a[i]+a[j]+a[k];
+                v[l].x1=a[i];
+                v[l].x2=a[j];
+                v[l].x3=a[k];
+            }
+    sort(v+1,v+1+l,cmp);
+    q=(l+1)/2;
+    for(i=1;i<=q;++i)
+    {
+        h=binary_search()
+    }
+    return 0;
+}

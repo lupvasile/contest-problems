@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1392748067 source:d:\dropbox\c++\statistici de ordine\main.cpp
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstdlib>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1425142193 source:d:\google drive\^programare\c++\telecomanda\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+

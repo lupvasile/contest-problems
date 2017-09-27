@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1392740913 source:d:\dropbox\c++\nineteen\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1427115905 source:d:\google drive\^programare\campion\teanc\main.cpp
+	<cstdio>
+	<iostream>
+	<sstream>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1427710155 source:d:\google drive\^programare\olimpiade\oni\2013\confuzie oni 2013 clasa 11\main.cpp
+	<iostream>
+	<fstream>
+	<set>
+	<algorithm>
+

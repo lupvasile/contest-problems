@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1396546718 source:d:\dropbox\c++\euclid extins 1\main.cpp
+	<iostream>
+	<cstdlib>
+

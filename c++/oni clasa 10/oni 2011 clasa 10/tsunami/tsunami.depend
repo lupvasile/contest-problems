@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1395661499 source:d:\dropbox\c++\oni clasa 10\oni 2011 clasa 10\tsunami\main.cpp
+	<iostream>
+	<fstream>
+	<queue>
+

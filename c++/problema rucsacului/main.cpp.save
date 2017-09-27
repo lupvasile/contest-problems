@@ -1,0 +1,22 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+
+ifstream f("date.in");
+ofstream g("date.out");
+
+int optim[10001];
+int n,i,j,G,g,p;
+int main()
+{
+
+    f>>n>>G;
+    for(;n;--n)
+    {
+        f>>g>>p;
+        for(j=G-g;j>=0;+)
+    }
+    return 0;
+}

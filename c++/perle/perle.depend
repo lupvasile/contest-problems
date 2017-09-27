@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1384933724 source:c:\users\elev\desktop\perle\main.cpp
+	<iostream>
+	<fstream>
+
+1385209212 source:d:\info\c++\perle\main.cpp
+	<iostream>
+	<fstream>
+

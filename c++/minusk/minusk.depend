@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1385402543 source:d:\info\c++\minusk\main.cpp
+	<iostream>
+	<fstream>
+	<math.h>
+

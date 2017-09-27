@@ -1,0 +1,32 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <map>
+using namespace std;
+
+ifstream f("reteta2.in");
+ofstream g("reteta2.out");
+
+map <string,int> m;
+char c;
+int nr,aux,timp;
+string s;
+int main()
+{
+    while (f>>c)
+    {
+        nr=0;
+        if (c=='(' || c==')') continue;
+        while (c>='0' && c<='9')
+        {
+         nr=nr*10+c-'0';
+         f>>c;
+        }
+        if (c>='a' && c<='z')
+        {
+            f>>;
+        }
+        timp+=nr;
+    }
+       return 0;
+}

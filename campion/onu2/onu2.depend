@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1416514521 source:d:\dropbox\^programare\campion\onu2\main.cpp
+	<iostream>
+	<cstdio>
+	<fstream>
+	<string>
+	<vector>
+

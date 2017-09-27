@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1414143918 source:c:\users\vasil_000\desktop\template simulator\main.cpp
+	<Ws2tcpip.h>
+	<sstream>
+	<iostream>
+	<conio.h>
+

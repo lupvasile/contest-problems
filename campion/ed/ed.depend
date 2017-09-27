@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1422357721 source:d:\google drive\^programare\campion\ed\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<cstdlib>
+

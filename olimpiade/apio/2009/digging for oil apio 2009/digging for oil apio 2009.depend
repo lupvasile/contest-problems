@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1405118459 source:d:\dropbox\c++\apio\2009\digging for oil apio 2009\main.cpp
+	<iostream>
+	<fstream>
+	<deque>
+

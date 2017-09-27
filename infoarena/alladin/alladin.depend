@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1410982715 source:d:\dropbox\^programare\infoarena\alladin\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

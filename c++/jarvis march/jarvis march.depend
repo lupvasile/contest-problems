@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1395771544 source:d:\dropbox\c++\jarvis march\main.cpp
+	<iostream>
+	<fstream>
+	<math.h>
+	<iomanip>
+	<vector>
+

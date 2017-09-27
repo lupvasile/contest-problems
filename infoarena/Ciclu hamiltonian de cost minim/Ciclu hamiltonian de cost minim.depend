@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1425050938 source:d:\google drive\^programare\infoarena\ciclu hamiltonian de cost minim\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+

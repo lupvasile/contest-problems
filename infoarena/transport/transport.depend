@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1403542689 source:d:\dropbox\c++\infoarena\transport\main.cpp
+	<iostream>
+	<fstream>
+

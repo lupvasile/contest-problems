@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1390330703 source:d:\info\c++\ciurul lui eratostene\main.cpp
+	<iostream>
+	<fstream>
+	<bitset>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1416602660 source:d:\dropbox\^programare\infoarena\rafturi\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+

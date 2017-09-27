@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1453064596 source:c:\users\vasil_000\desktop\add\main.cpp
+	<iostream>
+	<thread>
+	<fstream>
+	<vector>
+	<cstdlib>
+	<tr1/unordered_map>
+

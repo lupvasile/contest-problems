@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1395763572 source:d:\dropbox\c++\aria\main.cpp
+	<cassert>
+	<cstdio>
+	<cmath>
+

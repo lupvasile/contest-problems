@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1385216445 source:d:\info\c++\taxe oji 2003 clasa 10\main.cpp
+	<iostream>
+	<fstream>
+	<queue>
+

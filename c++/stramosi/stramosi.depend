@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1389234893 source:c:\users\family\desktop\programare vasi\stramosi\main.cpp
+	<iostream>
+	<fstream>
+

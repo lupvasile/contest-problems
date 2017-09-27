@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1381213726 source:d:\info\c++\fractals catcoder\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+

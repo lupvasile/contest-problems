@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1413834259 source:d:\dropbox\^programare\infoarena\culmi\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

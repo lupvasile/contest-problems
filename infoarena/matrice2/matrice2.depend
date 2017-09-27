@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1420741289 source:d:\google drive\^programare\infoarena\matrice2\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+

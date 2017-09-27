@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1386143253 source:c:\users\elev\desktop\desert\main.cpp
+	<iostream>
+	<cstdio>
+

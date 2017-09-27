@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1375195576 source:d:\info\c++\culori oji 2012 clasa 10\main.cpp
+	<fstream>
+	<iostream>
+	<math.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1396458736 source:d:\dropbox\c++\principiul includerii si excluderii\main.cpp
+	<iostream>
+	<fstream>
+	<cmath>
+

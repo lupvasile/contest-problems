@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1384768640 source:c:\users\elev\desktop\rj\main.cpp
+	<iostream>
+	<iomanip>
+	<fstream>
+	<queue>
+

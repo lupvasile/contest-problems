@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+int k,d,i;
+int main()
+{   cin>>k>>d;
+    if(d>0)
+    {
+        cout<<1;
+        for(i=1;i<=k-2;i++)cout<<0;
+        if(k-2>=0)cout<<d-1;
+    }
+    else cout<<0;
+
+    return 0;
+}

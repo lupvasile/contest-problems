@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1421058253 source:d:\google drive\^programare\codeforces\285\c. misha and forest\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<queue>
+

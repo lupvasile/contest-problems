@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1393510130 source:d:\dropbox\c++\potrivirea sirurilor\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1426000052 source:d:\google drive\^programare\infoarena\2sah\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+

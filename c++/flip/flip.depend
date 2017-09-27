@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1392588480 source:d:\dropbox\c++\flip\main.cpp
+	<iostream>
+	<fstream>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1386747747 source:c:\users\elev\desktop\sdfg\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+

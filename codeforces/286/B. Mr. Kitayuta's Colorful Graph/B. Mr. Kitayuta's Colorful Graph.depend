@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1421589064 source:d:\google drive\^programare\codeforces\286\b. mr. kitayuta's colorful graph\main.cpp
+	<iostream>
+	<vector>
+	<fstream>
+

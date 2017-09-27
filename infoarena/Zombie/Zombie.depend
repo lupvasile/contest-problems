@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1457169033 source:d:\google drive\^programare\infoarena\zombie\main.cpp
+	<iostream>
+	<fstream>
+

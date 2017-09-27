@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1413659001 source:d:\dropbox\^programare\codeforces\222\d. preparing for the contest\main.cpp
+	<iostream>
+	<algorithm>
+	<cstdio>
+	<queue>
+

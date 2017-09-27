@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1392733605 source:d:\dropbox\c++\yet another number sequence\main.cpp
+	<iostream>
+	<cmath>
+

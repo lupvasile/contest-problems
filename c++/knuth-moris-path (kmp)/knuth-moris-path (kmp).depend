@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1394197894 source:/host/Dropbox/c++/knuth-moris-path (kmp)/main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<vector>
+
+1394537451 source:d:\dropbox\c++\knuth-moris-path (kmp)\main.cpp
+	<fstream>
+	<iostream>
+	<cstring>
+

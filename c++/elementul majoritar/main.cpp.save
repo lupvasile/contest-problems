@@ -1,0 +1,20 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+ifstream f("elmaj.in");
+ofstream g("elmaj.out");
+int k,v[100001],i,n;
+int main()
+{
+    f>>n;
+    for(i=1;i<=n;++i)
+    {
+        f>>v[i];
+        if (k==0) cand=v[i];
+        if (v[i]==cand) ++k;
+        else --k;
+    }
+    for(i=1;i<=n;++i)
+    return 0;
+}

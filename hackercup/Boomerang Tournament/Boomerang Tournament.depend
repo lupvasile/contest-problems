@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1453052914 source:c:\users\vasil_000\desktop\hackercup\boomerang tournament\main.cpp
+	<iostream>
+	<thread>
+	<fstream>
+

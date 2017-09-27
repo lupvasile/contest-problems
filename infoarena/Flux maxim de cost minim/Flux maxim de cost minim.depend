@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1416170527 source:d:\dropbox\^programare\infoarena\flux maxim de cost minim\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<queue>
+

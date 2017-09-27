@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1395152696 source:d:\dropbox\c++\oni clasa 10\oni 2012 clasa 10\drept\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+

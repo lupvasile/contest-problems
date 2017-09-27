@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1405359302 source:d:\dropbox\^programare\apio\2008\beads apio 2008\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

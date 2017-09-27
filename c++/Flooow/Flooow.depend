@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1455712024 source:d:\google drive\^programare\c++\flooow\main.cpp
+	<fstream>
+	<iostream>
+

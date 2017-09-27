@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1421080615 source:d:\google drive\^programare\olimpiade\oji\2012\blis oji 2012 clasa 11\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

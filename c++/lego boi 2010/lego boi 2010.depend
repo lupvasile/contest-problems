@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1396084368 source:d:\dropbox\c++\lego boi 2010\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+

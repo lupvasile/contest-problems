@@ -1,0 +1,10 @@
+#include <iostream>
+
+using namespace std;
+int v[27],i;
+
+int main()
+{   while (cin>>c) v[c-'a']++;
+    cout<<'z'-'a';
+    return 0;
+}

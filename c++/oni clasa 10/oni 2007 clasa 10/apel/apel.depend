@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1404815410 source:d:\dropbox\c++\oni clasa 10\oni 2007 clasa 10\apel\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstring>
+
+1404818614 source:c:\users\vasijr\dropbox\c++\oni clasa 10\oni 2007 clasa 10\apel\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<cstring>
+	<algorithm>
+

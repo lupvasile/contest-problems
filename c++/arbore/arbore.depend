@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1425030707 source:d:\google drive\^programare\c++\arbore\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

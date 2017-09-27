@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1382813556 source:d:\info\c++\asdf\main.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+
+1189864956 source:d:\dropbox\c++\asdf\main.cpp
+	<iostream>
+
+1385320478 source:d:\google drive\^programare\c++\asdf\main.cpp
+	<iostream>
+

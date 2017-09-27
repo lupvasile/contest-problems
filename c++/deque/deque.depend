@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1392662505 source:d:\dropbox\c++\deque\main.cpp
+	<iostream>
+	<deque>
+	<fstream>
+

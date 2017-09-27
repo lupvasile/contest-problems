@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1414058081 source:c:\users\vasil_000\desktop\tcp\main.cpp
+	<Ws2tcpip.h>
+	<sstream>
+	<string>
+	<iostream>
+

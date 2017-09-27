@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1410350625 source:d:\dropbox\^programare\infoarena\heavy metal\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+

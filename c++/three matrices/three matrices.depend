@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1392730508 source:d:\dropbox\c++\three matrices\main.cpp
+	<iostream>
+	<iomanip>
+

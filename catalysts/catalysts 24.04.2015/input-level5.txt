@@ -1,0 +1,9 @@
+dimension=2d
+nrOfX=60
+nrOfY=60
+bodyX=100
+bodyY=300
+bodyCGx=60
+bodyCGy=40
+maxSticks=400
+shape=0,0,120,0,120,80,0,80

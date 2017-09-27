@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1457354558 source:d:\google drive\^programare\olimpiade\baraje\2011\terenuri\main.cpp
+	<stdio.h>
+	<math.h>
+	<vector>
+	<algorithm>
+	<set>
+

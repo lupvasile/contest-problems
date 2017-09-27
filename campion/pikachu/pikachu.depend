@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1419939248 source:d:\google drive\^programare\campion\pikachu\main.cpp
+	<iostream>
+	<fstream>
+	<set>
+	<algorithm>
+

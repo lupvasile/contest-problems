@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1393110931 source:d:\dropbox\c++\taxa oni 2013 clasa 10\main.cpp
+	<queue>
+	<cstdio>
+
+1393269808 source:d:\dropbox\c++\oni 2013 clasa 10\taxa oni 2013 clasa 10\main.cpp
+	<fstream>
+	<iostream>
+	<queue>
+

@@ -1,0 +1,45 @@
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+using namespace std;
+ifstream f("zona.in");
+ofstream g("zona.out");
+
+int c,n,x,y,l,a[51][51],i,k,j,p,s;
+int d[5][2]= {{},{-1,0},{0,1},{1,0},{0,-1}};
+bool ok;
+int main()
+    {
+    f>>x>>y>>n>>l;
+    a[x][y]=1;
+    for(i=2; i<=l; i++)
+        {
+        f>>k;
+        x+=d[k][0];
+        y+=d[k][1];
+        a[x][y]=i;
+        }
+    f>>k;
+    x+=d[k][0];
+    y+=d[k][1];
+    cout<<l+1-a[x][y]<<"\n";
+//a[x][y]=99;
+    /*for(i=1;i<=n;i++)
+    {
+        for(int j=1;j<=n;j++) cout<<setw(3)<<a[i][j];
+        cout<<"\n";
+    }*/
+    p=a[x][y];
+    for (i=1; i<=n; i++)
+        {
+        ok=false;
+        for (j=1; j<=n; j++)
+            {
+            if (a[i][j]>p && a[i-1][j-1]>p) ok=!ok;
+            if (ok) s++;
+            }
+        }
+
+    cout<<s;
+    return 0;
+    }

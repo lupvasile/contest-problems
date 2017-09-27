@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1393166271 source:d:\dropbox\c++\oni 2013 clasa 10\zone 2\main.cpp
+	<iostream>
+	<fstream>
+	<set>
+	<queue>
+

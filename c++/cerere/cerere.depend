@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1389261567 source:c:\users\family\desktop\programare vasi\cerere\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

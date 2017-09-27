@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1410256934 source:d:\dropbox\^programare\codeforces\261\d. pashmak and parmida's problem\main.cpp
+	<iostream>
+	<tr1/unordered_map>
+	<cstdio>
+

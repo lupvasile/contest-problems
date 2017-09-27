@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1392975979 source:c:\users\elev\desktop\invers modular\main.cpp
+	<iostream>
+	<fstream>
+

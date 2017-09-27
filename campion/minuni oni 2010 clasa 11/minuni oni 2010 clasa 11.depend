@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1427128901 source:d:\google drive\^programare\campion\minuni oni 2010 clasa 11\main.cpp
+	<iostream>
+	<fstream>
+	<set>
+	<tr1/unordered_map>
+	<sstream>
+

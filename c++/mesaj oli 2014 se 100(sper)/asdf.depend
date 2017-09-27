@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1392982316 source:c:\users\elev\desktop\asdf\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<cstring>
+	<algorithm>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1425065607 source:d:\google drive\^programare\infoarena\palindrom\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<algorithm>
+

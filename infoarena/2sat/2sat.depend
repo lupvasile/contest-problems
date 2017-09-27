@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1410846771 source:c:\users\administrator\desktop\2sat\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<cstring>
+
+1410972789 source:d:\dropbox\^programare\infoarena\2sat\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

@@ -1,0 +1,7 @@
+dimension=1d
+nrOfX=120
+bodyX=0
+bodyY=220
+bodyCGx=0
+bodyCGy=0
+shape=0,0,60,0,60,40,0,40

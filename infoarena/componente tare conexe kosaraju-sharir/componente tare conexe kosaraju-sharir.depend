@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1405182933 source:c:\users\vasi\desktop\componente tare conexe kosaraju-sharir\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

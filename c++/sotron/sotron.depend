@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1385304967 source:d:\info\c++\sotron\main.cpp
+	<fstream>
+	<iostream>
+

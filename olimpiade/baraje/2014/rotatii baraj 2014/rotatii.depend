@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1415401210 source:d:\dropbox\^programare\olimpiade\baraje\2014\rotatii baraj 2014\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

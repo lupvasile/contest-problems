@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1391106167 source:d:\info\c++\mindcoding\asdf\main.cpp
+	<iostream>
+	<vector>
+

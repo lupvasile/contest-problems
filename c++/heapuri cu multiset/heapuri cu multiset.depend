@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1392832131 source:d:\dropbox\c++\heapuri cu multiset\main.cpp
+	<iostream>
+	<set>
+	<fstream>
+

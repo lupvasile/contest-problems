@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1380557601 source:d:\info\c++\reteta oji 2009 clasa 10\main.cpp
+	<iostream>
+	<fstream>
+	<string.h>
+

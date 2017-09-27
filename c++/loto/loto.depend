@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1390316213 source:d:\info\c++\loto\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+

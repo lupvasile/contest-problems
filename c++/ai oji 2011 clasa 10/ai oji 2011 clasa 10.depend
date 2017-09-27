@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1377526109 source:d:\info\c++\ai oji 2011 clasa 10\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<queue>
+
+1377526109 
+
+1377610380 source:/host/info/c++/ai oji 2011 clasa 10/main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<queue>
+

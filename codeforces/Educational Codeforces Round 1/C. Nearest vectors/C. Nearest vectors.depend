@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1456753031 source:d:\google drive\^programare\codeforces\educational codeforces round 1\c. nearest vectors\main.cpp
+	<iostream>
+	<cmath>
+	<algorithm>
+	<bits/stdc++.h>
+

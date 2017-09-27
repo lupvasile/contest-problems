@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1414170793 source:c:\users\vasil_000\desktop\ccc\main.cpp
+	<Ws2tcpip.h>
+	<sstream>
+	<iostream>
+	<conio.h>
+	<fstream>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1427217073 source:d:\google drive\^programare\olimpiade\oni\2009\pikachu oni 2009 clasa 11\main.cpp
+	<set>
+	<iostream>
+	<fstream>
+	<tr1/unordered_map>
+	<cstring>
+

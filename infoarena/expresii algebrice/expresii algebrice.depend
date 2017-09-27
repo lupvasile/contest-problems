@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1410787434 source:d:\dropbox\^programare\infoarena\expresii algebrice\main.cpp
+	<iostream>
+	<fstream>
+	<cstring>
+	<string>
+

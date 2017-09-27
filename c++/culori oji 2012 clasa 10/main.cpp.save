@@ -1,0 +1,28 @@
+#include <fstream>
+#include <iostream>
+#include <math.h>
+using namespace std;
+ifstream f("culori.in");
+ofstream g("culori.out");
+int n,a[3000];
+int main()
+    {
+    f>>n;
+    n=4322;
+    if (n==1) g<<5;
+    else if (n==2) g<<8;
+    else
+        {
+        if (n % 2==0) a[1]=8,a[0]=1;
+        else a[1]=4,a[2]=1,a[0]=2;
+        for (i=1; i<=n/2-1; i++)
+            {
+            m=0;
+            for (j=1; j<=a[0]; j++)
+                
+                }
+        for(; a[0]; a[0]--)cout<<a[a[0]];
+        g.close();
+        }
+    return 0;
+    }

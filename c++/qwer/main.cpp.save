@@ -1,0 +1,29 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+void f(int x)
+{
+    int i,j;
+    for(i=1;i<=x;i++)
+    {
+        j=i;
+        while(j>0)
+        {
+            cout<<j%2;
+            j=j/2;
+        }
+    }
+}
+int main()
+{
+   //f(10);
+   char s[600];
+   strcpy(s,"1+2+3");
+   int i,k;
+   k=0;
+   for(i=1;i<strlen(s);i++)
+   if(s[i]=='+') k=k+s[i-1];
+   cout<<k;
+   
+    return 0;
+}

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1390664651 source:d:\info\c++\timp\main.cpp
+	<iostream>
+	<fstream>
+

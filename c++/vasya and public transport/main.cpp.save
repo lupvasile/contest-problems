@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+#define foor(i,a,b) for(i=a;i<=b;i++)
+int c1,c2,c3,c4,m,n,autobuz[1001],trolebuz[1001],i,mina,minb;
+int cost(int a[1000],int l)
+int main()
+{   cin>>c1>>c2>>c3>>c4;
+    cin>>n>>m;
+    foor(i,1,n) cin>>autobuz[i];
+    foor(i,1,m) cin>>trolebuz[i];
+    mina=
+    return 0;
+}

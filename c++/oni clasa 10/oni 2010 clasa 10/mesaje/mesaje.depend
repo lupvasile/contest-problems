@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1396255859 source:d:\dropbox\c++\oni clasa 10\oni 2010 clasa 10\mesaje\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+	<vector>
+	<bitset>
+	<cstring>
+	<algorithm>
+

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1393452378 source:d:\dropbox\c++\dijkstra\main.cpp
+	<iostream>
+	<cstring>
+	<fstream>
+	<set>
+	<vector>
+

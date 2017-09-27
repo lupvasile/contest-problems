@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1382949666 source:c:\users\elev\desktop\aib\main.cpp
+	<iostream>
+	<fstream>
+
+1383066616 source:d:\info\c++\aib\main.cpp
+	<iostream>
+	<fstream>
+

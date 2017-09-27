@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1385302209 source:d:\info\c++\dunarea\main.cpp
+	<iostream>
+	<fstream>
+

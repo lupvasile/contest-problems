@@ -1,0 +1,48 @@
+#include <iostream>
+#include <algorithm>
+#include <fstream>
+#include <vector>
+using namespace std;
+
+ifstream f("alpin.in");
+ofstream g("alpin.out");
+
+//#define cout g
+#define nmax 1100
+#define foor(i,v) for(__typeof(v.begin()) i=v.begin();i!=v.end();++i)
+
+
+struct element{int x,y,val;
+bool operator <(const element a) const
+{
+    return val<a.val;
+}
+};
+
+
+vector <element> v;
+int n,i,j,x,y;
+int a[nmax][nmax],dp[nmax][nmax];
+
+int main()
+{
+    f>>n;
+    for(i=1;i<=n;++i)
+        for(j=1;j<=n;++j)
+    {
+        f>>a[i][j];
+        v.push_back({i,j,a[i][j]});
+    }
+    sort(v.begin(),v.end());
+    foor(it,v)
+    {
+        x=it->x;
+        y=it->y;
+        for(i=0;i<=3;++i)
+        {
+            nx=x+depl[i][x];
+            ny=y+depl[i][y];
+        }
+    }
+    return 0;
+}

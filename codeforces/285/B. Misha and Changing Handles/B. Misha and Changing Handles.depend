@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1421054395 source:d:\google drive\^programare\codeforces\285\b. misha and changing handles\main.cpp
+	<iostream>
+	<tr1/unordered_map>
+

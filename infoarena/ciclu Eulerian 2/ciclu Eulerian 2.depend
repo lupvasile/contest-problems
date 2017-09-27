@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1420389372 source:d:\google drive\^programare\infoarena\ciclu eulerian 2\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<stack>
+

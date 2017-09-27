@@ -1,0 +1,57 @@
+#include <iostream>
+#include <string.h>
+#include <fstream>
+using namespace std;
+ifstream f("date.in");
+int a,b,n,x,p,aux;
+bool ok;
+int din_a_in_10()
+{   char n[100],*pos;
+    double x(0),p;
+    f.get(n,100);
+    pos=strchr(n,'.');
+    if(pos==NULL) pos=n+strlen(n);
+    //cout<<pos<<"\n";
+    pos--;
+    //cout<<"dati baza din care provine numarul ";
+    f>>a;
+    p=1;
+    x=0;
+    cout<<'\n';
+    while(pos-n>=0)
+    {
+        x=x+(*pos-'0')*p;
+        p=p*a;
+        pos=pos-1;
+    }
+    pos=strchr(n,'.');
+    if(pos==NULL) pos=n+strlen(n)-1;
+    pos++;
+    p=(float)1/a;
+    while(*pos!='\0')
+    {
+        x=x+(*pos-'0')*p;
+        p=p/a;
+        pos++;
+    }
+
+    cout<<n<<" din baza "<<a<<" in baza "<<10<<" este "<<x;
+}
+int main()
+    {
+    /*cout<<"dati numarul ";
+    cin>>n;
+    ok=true;
+    while (ok)
+        {
+        cout<<"dati baza din care provine numarul ";
+        cin>>a;
+        if (a<=n-1) ok=false;
+        else cout<<"nu se poate\n";
+        }
+    cout<<"dati baza in care doriti sa vedeti numarul ";
+    cin>>b;
+    cout<<n<<" sin baza "<<a<<" in baza "<<b<<" este "<<converteste(n,a,b);*/
+    din_a_in_10();
+        return 0;
+    }

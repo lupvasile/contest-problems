@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1383253074 source:d:\info\c++\sudest oji 2006 clasa 10 o varianta\main.cpp
+	<iostream>
+	<fstream>
+	<queue>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1393587297 source:d:\dropbox\c++\euclid extins\main.cpp
+	<iostream>
+	<fstream>
+
+1393588909 source:d:\dropbox\c++\euclid extins\cj_09_dfd.cpp
+	<iostream>
+	<fstream>
+

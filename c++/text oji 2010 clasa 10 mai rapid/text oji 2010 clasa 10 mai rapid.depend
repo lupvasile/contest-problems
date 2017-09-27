@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1380035337 source:d:\info\c++\text oji 2010 clasa 10 mai rapid\main.cpp
+	<fstream>
+	<iostream>
+	<string.h>
+

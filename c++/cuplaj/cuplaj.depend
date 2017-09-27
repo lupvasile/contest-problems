@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1384523855 source:d:\cuplaj\main.cpp
+	<iostream>
+	<fstream>
+

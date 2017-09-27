@@ -1,0 +1,27 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+char s[30];
+int rasp(0);
+void back(int nivel)
+{
+    if(nivel<4)
+    {   s[nivel]='a';
+        if (fonctie(nivel)) rasp++;
+        s[nivel]='b';
+        if (fonctie(nivel)) rasp++;
+        s[nivel]='c';
+    }
+}
+bool fonctie(int j)
+{
+    int i,j;
+    i=0;
+    while(i<j && s[i]==s[j]) i++,j--;
+    return (i>j);
+}
+int main()
+{
+back(0);
+    return 0;
+}

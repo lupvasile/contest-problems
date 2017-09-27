@@ -1,0 +1,10 @@
+H= 17 N= 3 M= 13 p= 0 efmin=10.5  solutia 1 12 4
+H= 28 N= 7 M= 10 p= 2 efmin=18.33 solutia 1 2 7 3 5 4 6
+H= 62 N= 8 M= 12 p= 3 efmin=56    solutia 1 11 4 8 7 9 10 12
+H= 57 N= 8 M= 13 p= 4 efmin=49.5  solutia 1 12 2 11 3 10 5 13
+H= 69 N= 8 M= 13 p= 10 efmin=69   solutia 1 5 8 9 10 11 12 13
+H= 41 N= 6 M= 10 p= 2 efmin=38    solutia 1 9 6 7 8 10
+H= 32 N= 5 M= 10 p= 2 efmin=29    solutia 1 9 4 8 10
+H= 51 N= 7 M= 13 p= 4 efmin=43.5  solutia 2 11 3 10 4 9 12
+H= 28 N= 4 M= 10 p= 1 efmin=24    solutia 1 9 8 10
+H= 49 N= 8 M= 10 p= 5 efmin=47.33 solutia 1 3 6 5 7 8 9 10

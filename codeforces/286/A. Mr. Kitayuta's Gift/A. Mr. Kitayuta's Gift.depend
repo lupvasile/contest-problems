@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1421587273 source:d:\google drive\^programare\codeforces\286\a. mr. kitayuta's gift\main.cpp
+	<iostream>
+	<cstring>
+	<fstream>
+

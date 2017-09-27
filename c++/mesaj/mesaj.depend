@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1392151128 source:d:\dropbox\c++\mesaj\main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+

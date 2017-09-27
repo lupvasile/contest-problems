@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1412783250 source:d:\dropbox\^programare\codeforces\271\e. pillars\main.cpp
+	<iostream>
+	<set>
+	<tr1/unordered_map>
+	<cmath>
+	<cstdio>
+	<fstream>
+

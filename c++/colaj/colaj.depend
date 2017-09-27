@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1384198535 source:d:\info\c++\colaj\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+

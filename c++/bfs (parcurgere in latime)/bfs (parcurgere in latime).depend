@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1389682551 source:c:\users\family\desktop\programare vasi\bfs (parcurgere in latime)\main.cpp
+	<iostream>
+	<fstream>
+	<queue>
+	<vector>
+

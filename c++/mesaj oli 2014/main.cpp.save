@@ -1,0 +1,63 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <cstring>
+#include <algorithm>
+using namespace std;
+
+ifstream f("mesaj.in");
+ofstream g("mesaj.out");
+
+int i,l,j,vasi,lup;
+char s[202],*a[202][202];
+string q,t;
+string ss,rasp;
+bool fi_nd(int x,int y,int lung, int &e1, int &e2)
+{
+  int i;
+  bool ok(0);
+  for(i=y+1; i+lung-1<l; ++i)
+    {
+      if (strcmp(a[x][y],a[i][i+lung-1])==0)
+        {
+          if(!ok || strncmp(&s[i],s[e1],lung))
+            {
+              e1=i;
+              e2=i+lung-1;
+            }
+          ok=1;
+        }
+    }
+  return ok;
+}
+int main()
+{
+  f.get(s,244);
+  l=strlen(s);
+  for(i=0; i<l; ++i)
+    {
+      for(j=i; j<l; ++j)
+        {
+          a[i][j]=new char [l-i+2];
+          a[i][j][0]='\0';
+          strncat(a[i][j],s+i,j-i+1);
+          sort(a[i][j],a[i][j]+strlen(a[i][j]));
+        }
+    }
+  for(i=0; i<l; ++i)
+    {
+      q="";
+      t="";
+      j=i;
+      while (fi_nd(i,j,j-i+1,vasi,lup) )q+=s[j],++j;
+      for(j=vasi; j<=lup; ++j) t+=s[j];
+      q=max(q,t);
+      if (q.length()>rasp.length()) rasp=q;
+      else if (q.length()==rasp.length()) rasp=max(rasp,q);
+      //cout<<q<<'\n';
+    }
+  g<<rasp;
+//cout<<(sizeof(a)+sizeof(s))/1024/1024;
+//for(i=1;i<=200;++i) g<<'b';
+  return 0;
+}

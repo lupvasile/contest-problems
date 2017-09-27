@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1395674136 source:d:\dropbox\c++\oni clasa 10\oni 2011 clasa 10\expresie\main.cpp
+	<iostream>
+	<fstream>
+	<map>
+	<cstring>
+

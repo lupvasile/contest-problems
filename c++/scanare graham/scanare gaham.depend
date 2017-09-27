@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1395832570 source:d:\dropbox\c++\scanare gaham\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<algorithm>
+

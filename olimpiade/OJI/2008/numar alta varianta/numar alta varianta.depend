@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1422471984 source:d:\google drive\^programare\olimpiade\oji\2008\numar alta varianta\main.cpp
+	<iostream>
+	<fstream>
+	<queue>
+

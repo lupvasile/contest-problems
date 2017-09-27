@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1383512913 source:d:\info\c++\scara oji 2005 clasa 10\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1418078390 source:d:\dropbox\^programare\campion\vitale\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+	<vector>
+
+1418503322 source:d:\google drive\^programare\campion\vitale\main.cpp
+	<iostream>
+	<fstream>
+	<algorithm>
+	<vector>
+

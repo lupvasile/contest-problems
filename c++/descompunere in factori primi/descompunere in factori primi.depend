@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1393358788 source:d:\dropbox\c++\descompunere in factori primi\main.cpp
+	<iostream>
+	<fstream>
+	<cstdio>
+

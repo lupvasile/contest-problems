@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1420656475 source:d:\google drive\^programare\infoarena\log\main.cpp
+	<iostream>
+	<fstream>
+

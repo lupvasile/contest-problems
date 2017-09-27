@@ -1,0 +1,80 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+ifstream f("amedie.in");
+ofstream g("amedie.out");
+
+//#define cout g
+#define nmax 810
+#define val_max 100001
+#define foor(i,a,b) for(i=a;i<=b;++i)
+
+int a[nmax][nmax],v[nmax*nmax],pos[val_max],w[val_max],maxx,l;
+int right1[nmax*nmax],left1[nmax*nmax];
+int i,j,n,m,p,q,mediana,nr_elemente,x;
+char c;
+
+void sortare()//acuma sortezi matricea si faci right[i] si left[i]
+{
+  foor(i,1,maxx)
+  {
+    for(; w[i]; --w[i]) v[++l]=i;
+    if(v[l]==i) pos[i]=l;
+  }
+  foor(i,1,l)
+  {
+    right1[i]=i+1;
+    left1[i]=i-1;
+  }
+}
+void elimina(int x,int y)
+{
+    int x=pos[a[x][y]];
+    if(v[left[x]]==v[x]) pos[x]=left[x];
+    else pos[x]=0;
+    --nr_elemente;
+    if(v[x]<v[mediana])
+    right[left[x]]=right[x];
+    left[right[x]]=left[x];
+    a[x][y]=-1;
+}
+int main()
+{
+  f>>n>>m>>q;
+  foor(i,1,n) foor(j,1,m)
+  {
+    f>>a[i][j];// in w o sa ai un sir de frecventa pentru sortare
+    ++w[a[i][j]];
+    maxx=max(a[i][j],maxx);
+  }
+  nr_elemente=n*m;
+  mediana=(nr_elemente+1)/2;
+  sortare();
+  for(; q; --q)
+    {
+      f>>c;
+      switch (c)
+        {
+        case 'L':
+        {
+          f>>x;
+          foor(i,1,m) if(a[x][i]>0) elimina(x,i);
+          break;
+        }
+        case 'C':
+        {
+          f>>x;
+          foor(i,1,n) if(a[i][x]>0) elimina(i,x);
+          break;
+        }
+        case 'Q':
+        {
+          cout<<v[mediana];
+          break;
+        }
+        }
+    }
+  return 0;
+}

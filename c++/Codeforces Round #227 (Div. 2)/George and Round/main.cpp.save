@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    f>>n>>m;
+    for(i=1;i<=m;++i) f>>v[i];
+    for(i=1;i<=m;++i)
+    {
+        f>>
+    }
+    return 0;
+}

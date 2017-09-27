@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+
+using namespace std;
+
+ifstream f("strmatch.in");
+ofstream g("strmatch.out");
+
+string a,b;
+int c(-1),l,v[1001];
+int main()
+{
+f>>a>>b;
+while (c=b.find(a,c+1))
+{
+    v[++l]
+}
+    return 0;
+}

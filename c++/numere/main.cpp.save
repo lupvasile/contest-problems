@@ -1,0 +1,27 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+ifstream f("numere.in");
+ofstream g("numere.out");
+
+int win(int a,int b,int p)
+{
+    if(a==0 || b==0) return 2-p;
+    else {
+    if (a<b) switch(a,b);
+    j=b*(a/b);
+    while ()
+    }
+}
+int main()
+{
+    f>>t;
+    for(;t;--t)
+    {
+        f>>x>>y;
+        cout<<win(x,y,1)<<'\n';
+    }
+    return 0;
+}

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1382907700 source:d:\info\c++\little girl and the game\main.cpp
+	<iostream>
+	<string.h>
+

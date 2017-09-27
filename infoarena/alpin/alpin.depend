@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1413295158 source:d:\dropbox\^programare\infoarena\alpin\main.cpp
+	<iostream>
+	<algorithm>
+	<fstream>
+	<vector>
+

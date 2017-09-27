@@ -1,0 +1,13 @@
+#include<iostream>
+#include<fstream>
+using namespace std;
+ifstream f("lgput.in");
+ofstream g("lgput.out");
+
+int main()
+{
+
+g.close();
+
+    return 0;
+}
