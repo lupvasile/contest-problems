@@ -1,0 +1,28 @@
+#include <iostream>
+#include <fstream>
+#include <bitset>
+
+using namespace std;
+
+ifstream f("ciur.in");
+ofstream g("ciur.out");
+
+bitset <1000001> v;
+int n,i,j,nr;
+int main()
+{
+    f>>n;
+    nr=(n+1)/2;
+    for(i=1;((i*i)<<2)+(i<<2)<=n;++i)
+    {
+    if(!v[i])
+        for(j=((i*i)<<1)+(i<<1);(j<<1)+1<=n;j+=(i<<1)+1)
+        if (!v[j])
+        {
+            v[j]=1;
+            nr--;
+        }
+    }
+    g<<nr;
+    return 0;
+}

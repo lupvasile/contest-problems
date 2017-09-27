@@ -1,0 +1,69 @@
+#include <iostream>
+#include <fstream>
+#include <queue>
+using namespace std;
+
+ifstream f("muzeu.in");
+ofstream g("muzeu.out");
+
+#define foor(i,a,b) for(i=a;i<=b;++i)
+#define nmax 260
+#define xx first
+#define yy second
+#define cout g
+
+int a[nmax][nmax];
+int n,i,j;
+char c;
+queue <pair<int,int> > q;
+int depl[4][2]= {{-1,0},{0,1},{1,0},{0,-1}};
+void lee()
+{
+  int x,y,nx,ny,i,j;
+  while (!q.empty())
+    {
+      x=q.front().xx;
+      y=q.front().yy;
+      q.pop();
+      foor(i,0,3)
+      {
+        nx=x+depl[i][0];
+        ny=y+depl[i][1];
+        if(a[nx][ny]==-1)
+          {
+            a[nx][ny]=a[x][y]+1;
+            q.push(make_pair(nx,ny));
+          }
+      }
+    }
+}
+int main()
+{
+  f>>n;
+  foor(i,1,n) foor(j,1,n)
+  {
+    f>>c;
+    switch (c)
+      {
+      case '.':
+        a[i][j]=-1;
+        break;
+      case '#':
+        a[i][j]=-2;
+        break;
+      case 'P':
+      {
+        a[i][j]=0;
+        q.push(make_pair(i,j));
+        break;
+      }
+      }
+  }
+  lee();
+  foor(i,1,n)
+  {
+    foor(j,1,n) cout<<a[i][j]<<' ';
+    cout<<'\n';
+  }
+return 0;
+}

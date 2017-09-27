@@ -1,0 +1,32 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+long long n,k,a,b,x,i,c,rasp;
+#define mod 1000000007
+long long powe(long long x,long long p)
+{
+  long long r(1);
+  x%=mod;
+  int i;
+  for(i=0; (1<<i)<=p; ++i)
+    {
+      if(p&(1<<i)) r=r*x%mod;
+      x=x*x%mod;
+    }
+    return r;
+}
+int main()
+{
+  cin>>n>>k;
+  c=0;
+  b=1;
+  for(i=1; i<=n; ++i)
+    {
+      a=(b+c)%mod;
+      c=b;
+      b=a;
+      rasp=(rasp+a*powe(i,k))%mod;
+    }
+  cout<<rasp;
+  return 0;
+}

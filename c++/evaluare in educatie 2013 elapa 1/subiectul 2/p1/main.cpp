@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+int SUB(int x)
+{
+    int y=0, p=1;
+    x=x/10;
+    while (x>9)
+    {
+        y=y+x%10*p;
+        x=x/10;
+        p=p*10;
+    }
+    return y;
+}
+int main()
+{
+    //cout<<SUB(123456);
+    int r(0),z(0);
+    //for(z=0;z<=999;z++) if(SUB(z)==0)r++;
+    //cout<<r;
+    int i;
+    for(i=10000;i<=99999;i++)if (SUB(i)==13) cout<<i<<'\n';
+    return 0;
+}
+((((A.x-C.O.x)*(A.x-C.O.x)+(A.y-C.O.y)*(A.y-C.O.y))==C.R*C.R) && (((B.x-C.O.x)*(B.x-C.O.x)+(B.y-C.O.y)*(B.y-C.O.y))==C.R*C.R) && (((A.x-B.x)*(A.x-B.x)+(A.y-B.y)*(A.y-B.y))==4*C.R*C.R))==1
